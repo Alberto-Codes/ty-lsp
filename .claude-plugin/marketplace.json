@@ -1,0 +1,24 @@
+{
+  "name": "ty-lsp",
+  "owner": {
+    "name": "Alberto-Codes"
+  },
+  "metadata": {
+    "description": "Astral ty type checker LSP for Claude Code"
+  },
+  "plugins": [
+    {
+      "name": "ty-lsp",
+      "source": {
+        "source": "github",
+        "repo": "Alberto-Codes/ty-lsp"
+      },
+      "description": "Python type checking diagnostics via Astral ty",
+      "homepage": "https://docs.astral.sh/ty/",
+      "repository": "https://github.com/Alberto-Codes/ty-lsp",
+      "license": "MIT",
+      "keywords": ["python", "type-checking", "lsp", "ty", "astral"],
+      "category": "code-intelligence"
+    }
+  ]
+}
